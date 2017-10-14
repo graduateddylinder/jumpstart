@@ -1,0 +1,20 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Bootstrap Overrides */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+/* Navigation */
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
