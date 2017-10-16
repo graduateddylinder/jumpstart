@@ -15,7 +15,7 @@ h2 {
 }
 
 img {
-  width: 100%;
+  width: 100%; /* Ensures image fills container */
 }
 
 /* Bootstrap Overrides */
@@ -57,7 +57,7 @@ img {
 
 .jumbotron p {
   max-width: 51.3rem;
-  margin: auto;
+  margin: auto; /* Ensures element is centered (jumbotron {text-align: center}) when max-width is set */
 }
 
 /* Project Image Containers */
