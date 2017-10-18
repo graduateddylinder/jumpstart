@@ -24,6 +24,25 @@ img {
   opacity: 0.7; /* Matches example website look */
 }
 
+.btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  margin-top: 2.8rem;
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  text-shadow: none;
+  font-size: 1.3rem; /* Not explicitely asked for, just matched example better */
+  border-radius: 8px; /* Not explicitely asked for, just matched example better */
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
 /* Bootstrap Overrides */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
