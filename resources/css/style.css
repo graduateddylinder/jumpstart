@@ -31,8 +31,9 @@ img {
   width: 11.4rem;
   padding: 1.3rem 0;
   text-shadow: none;
-  font-size: 1.3rem; /* Not explicitely asked for, just matched example better */
-  border-radius: 8px; /* Not explicitely asked for, just matched example better */
+  font-size: 1.25rem; /* The following is not explicitely asked for, just matched example better */
+  border-radius: 8px;
+  border: 0;
 }
 
 .btn-primary:hover {
@@ -114,4 +115,23 @@ img {
 
 .featured-project .categories h3 {
   color: #399bd1;
+}
+
+/* Footer */
+footer {
+  background-color: #f3f3f3;
+  text-align: center;
+  margin-top: 5.85rem;
+  padding: 5.2rem 0;
+}
+
+footer strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer p {
+  width: 42rem;
+  margin: auto;
+  margin-top: 1.4rem;
 }
