@@ -31,6 +31,12 @@ img {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 768px) { /* Matches example website, set to Tablet size */
+    .navbar img {
+        display: none;
+    }
+}
+
 /* Jumbotron */
 .jumbotron {
   color: white;
@@ -58,6 +64,12 @@ img {
 .jumbotron p {
   max-width: 51.3rem;
   margin: auto; /* Ensures element is centered (jumbotron {text-align: center}) when max-width is set */
+}
+
+@media only screen and (max-width: 768px) { /* Matches example website, set to Tablet size */
+    .navbar h1 {
+        font-size: 5.7rem;
+    }
 }
 
 /* Project Image Containers */
