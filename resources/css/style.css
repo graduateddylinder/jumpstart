@@ -14,8 +14,14 @@ h2 {
   color: #399bd1;
 }
 
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 img {
   width: 100%; /* Ensures image fills container */
+  opacity: 0.7; /* Matches example website look */
 }
 
 /* Bootstrap Overrides */
@@ -85,11 +91,6 @@ img {
 .featured-project .image-container {
   height: 19rem;
   margin-top: 20px;
-}
-
-.featured-project h3 {
-  font-size: 1.3rem;
-  font-weight: bold;
 }
 
 .featured-project .categories h3 {
